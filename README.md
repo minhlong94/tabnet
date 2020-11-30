@@ -130,6 +130,10 @@ A specific customization example notebook is available here : https://github.com
 - `cat_idxs` : list of int (default =[])
 
     List of categorical features indices.
+    
+- `cat_dims` : list of int (default =[])
+
+    List indicates number of classes in each categorical columns
 
 - `cat_emb_dim` : list of int
 
@@ -228,7 +232,7 @@ A specific customization example notebook is available here : https://github.com
 
     Number of consecutive epochs without improvement before performing early stopping.
 
-- weights : int or dict (default=0)
+- `weights` : int or dict (default=0)
 
     /!\ Only for TabNetClassifier
     Sampling parameter
